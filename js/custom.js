@@ -78,6 +78,32 @@ var data = [
       },
     ]
   },
+  {
+    'name': 'french',
+    'base': ['e2-e4', 'e7-e6', 'd2-d4','d7-d5'],
+    'variations': [
+      {
+        'name':'advance',
+        'line':['e4-e5', 'c7-c5', 'c2-c3', 'b8-c6', 'g1-f3'],
+      },
+      {
+        'name':'winnower',
+        'line':['b1-c3', 'f8-b4', 'a2-a3', 'b4-c3', 'b2-c3'],
+      },
+      {
+        'name':'classical',
+        'line':['b1-c3', 'g8-f6', 'e4-e5', 'f6-d7'],
+      },
+      {
+        'name':'tarrasch',
+        'line':['b1-d2'],
+      },
+      {
+        'name':'exchange',
+        'line':['e4-d5', 'e6-d5'],
+      },
+    ]
+  },  
 ]
 
 var populateOpeningDropdown = function(){
